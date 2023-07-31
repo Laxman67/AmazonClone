@@ -141,11 +141,39 @@ span {
 }
 .panel-opt p {
   display: inline;
-  margin-left: 10px;
+  margin-left: 10px ;
 }
 
 .panel-deals {
   
   font-size: 0.98rem;
   font-weight: 700;
+}
+
+
+/* Hero Section */
+
+.hero-section{
+  background-image: url(./assests/hero_image.jpg);
+  background-size: cover;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+}
+
+.hero-message{
+  background-color: whitesmoke;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  width: 95%;
+  margin-bottom: 25px;
+}
+
+.hero-message a{ 
+color: #007185;
 }
